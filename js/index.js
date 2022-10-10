@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // add page numbers
     const range = doc.bufferedPageRange()
-    let i
+    let i, end
 
     for (i = range.start, end = range.start + range.count, range.start <= end; i < end; i++) {
       if (i > 0) {
