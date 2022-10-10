@@ -2,10 +2,11 @@
   "name": "artspeak-ipsum-books",
   "version": "1.0.0",
   "description": "A website to create books from Artspeak Ipsum",
-  "main": "index.js",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx parcel index.html"
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
   },
   "author": "",
   "license": "ISC",
