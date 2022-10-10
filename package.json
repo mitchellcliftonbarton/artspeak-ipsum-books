@@ -1,0 +1,20 @@
+{
+  "name": "artspeak-ipsum-books",
+  "version": "1.0.0",
+  "description": "A website to create books from Artspeak Ipsum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "brfs": "^2.0.2",
+    "browserify": "^17.0.0",
+    "pdfkit": "^0.13.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}

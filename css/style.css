@@ -1,0 +1,39 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: white;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  color : black;
+  font-size: 1.7rem;
+  line-height : 1.3;
+  font-weight : normal;
+  margin: 0px;
+  padding: 10rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 1.7rem;
+}
+
+.container {
+  display: flex;
+}
+
+.container > div {
+  width: 50%;
+}
